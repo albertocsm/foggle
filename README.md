@@ -1,4 +1,4 @@
-#Description
+# Description
 This is a small and simple project conceived to be used as a service by other systems or services.
 Enables managing and querying feature toggles associated to external systems.
 
@@ -9,11 +9,12 @@ It currently supports global and non global toggles with the ability of a specif
 # TLDR
 TBD (explain how to run it)
 
-#TODO
+# TODO
 
 * functional 
   * add support for authentication and RBAC using JWT and spring (boot) security
   * add support for notifying a external system when a Toggle value changes using a subscription model and web hooks
+  * replace H2 by PostgreSQL for runtime
   * add PK, FK and UC to schema
   * add some extra search capabilities to Toggle management (eg. search by toggle description, sorting, etc)
 
